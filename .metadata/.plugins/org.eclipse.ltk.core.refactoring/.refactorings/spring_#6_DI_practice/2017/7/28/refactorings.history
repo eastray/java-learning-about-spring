@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;papaNmae&apos; in &apos;used.DI.group.Family&apos; to &apos;papaName&apos;&#x0D;&#x0A;- Original project: &apos;spring_#6_DI_practice&apos;&#x0D;&#x0A;- Original element: &apos;used.DI.group.Family.papaNmae&apos;&#x0D;&#x0A;- Renamed element: &apos;used.DI.group.Family.papaName&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;papaNmae&apos;" flags="589830" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src\/main\/java&lt;used.DI.group{Family.java[Family^papaNmae" name="papaName" references="true" setter="false" stamp="1500008108815" textual="false" version="1.0"/>
+</session>

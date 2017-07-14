@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="bmiCalculator" class="used.DI.BMI.BMICalculator">
+		<property name="lowWeight">
+			<value>18.5</value>
+		</property>
+		<property name="normal">
+			<value>23</value>
+		</property>
+		<property name="overWeight">
+			<value>25</value>
+		</property>
+		<property name="obesity">
+			<value>30</value>
+		</property>
+	</bean>
+
+	<bean id="myInfo" class="used.DI.BMI.MyInfo">
+	<constructor-arg value = "김동휘" />
+		
+	<constructor-arg value = "183" />
+		
+	<constructor-arg>
+		<value>83</value>
+	</constructor-arg>
+	<constructor-arg>
+	<list>
+	<value>운동</value>
+	<value>공부</value>
+	<value>술</value>
+	</list>
+	</constructor-arg>
+	<constructor-arg>
+		<ref bean = "bmiCalculator" />
+	</constructor-arg>
+	</bean>
+
+	<!-- <bean id="myInfo" class="used.DI.BMI.MyInfo">
+		<property name="name" value = "김동휘" / >
+			
+		<property name="height" value = "183" />
+			
+		<property name="weight">
+			<value>83</value>
+		</property>
+		<property name="hobby">
+			<list>
+				<value>운동</value>
+				<value>공부</value>
+				<value> 술 </value>
+			</list>
+		</property>
+		<property name="bmiCalculator">
+			<ref bean = "bmiCalculator" />
+		</property>
+	</bean> -->
+
+</beans>

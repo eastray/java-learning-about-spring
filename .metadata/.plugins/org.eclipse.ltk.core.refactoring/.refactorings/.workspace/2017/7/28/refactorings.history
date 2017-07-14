@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;spring_#8_2_file_propert_for_java&apos; to &apos;spring_#8_2_file_property_for_java&apos;&#x0D;&#x0A;- Original element: &apos;spring_#8_2_file_propert_for_java&apos;&#x0D;&#x0A;- Renamed element: &apos;spring_#8_2_file_propert_for_java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;spring_#8_2_file_propert_for_java&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=spring_\#8_2_file_propert_for_java" name="spring_#8_2_file_property_for_java" references="true" stamp="1500021247218" version="1.0"/>
+</session>

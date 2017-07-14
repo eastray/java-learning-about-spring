@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;spring_#8_2_file_property_for_java/src/main/resources&apos;&#x0D;&#x0A;- Original project: &apos;spring_#8_2_file_property_for_xml&apos;&#x0D;&#x0A;- Destination element: &apos;spring_#8_2_file_property_for_java/src/main/resources&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     admin.properties&#x0D;&#x0A;     sub_admin.properties" description="Copy files" destination="=spring_\#8_2_file_property_for_java/src\/main\/resources" element1="src/main/resources/admin.properties" element2="src/main/resources/sub_admin.properties" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1500027189587" units="0" version="1.0"/>
+</session>
