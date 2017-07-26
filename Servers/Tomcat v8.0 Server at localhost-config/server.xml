@@ -124,7 +124,21 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      </Host>
+      <!-- <Context docBase="spring_#12_mvc_controller" path="/controller" reloadable="true" source="org.eclipse.jst.jee.server:spring_#12_mvc_controller"/>-->
+      <!-- <Context docBase="spring_#13_httpServletRequest" path="/httpServletRequest" reloadable="true" source="org.eclipse.jst.jee.server:spring_#13_httpServletRequest"/> --> 
+
+	  <!-- <Context docBase="spring_#13_2_formData" path="/formData" reloadable="true" source="org.eclipse.jst.jee.server:spring_#13_2_formData"/> -->
+	  
+	  <!-- <Context docBase="spring_#14_1_requestMapping_mathod" path="/method" reloadable="true" source="org.eclipse.jst.jee.server:spring_#14_1_requestMapping_mathod"/> <Context docBase="sprint_#14_2_modelAttribute" path="/modelAttribute" reloadable="true" source="org.eclipse.jst.jee.server:sprint_#14_2_modelAttribute"/><Context docBase="spring_#14_3_redirect" path="/redirect" reloadable="true" source="org.eclipse.jst.jee.server:spring_#14_3_redirect"/> -->
+	  <!-- <Context docBase="spring_#14_3_redirect" path="/redirect" reloadable="true" source="org.eclipse.jst.jee.server:spring_#14_3_redirect"/> -->
+	  
+	  <!-- <Context docBase="spring_#14_2_modelAttribute" path="/modelAttribute" reloadable="true" source="org.eclipse.jst.jee.server:spring_#14_2_modelAttribute"/> -->
+	  <!-- <Context docBase="spring_#15_validator" path="/validator" reloadable="true" source="org.eclipse.jst.jee.server:spring_#15_validator"/> -->
+	  
+	  <!-- <Context docBase="spring_#16_mvc_board" path="/board" reloadable="true" source="org.eclipse.jst.jee.server:spring_#16_mvc_board"/> -->
+	  <Context docBase="spring_#21_mvc_board_jdbc" path="/board" reloadable="true" source="org.eclipse.jst.jee.server:spring_#21_mvc_board_jdbc"/>
+	  
+	  </Host>
     </Engine>
   </Service>
 </Server>

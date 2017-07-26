@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;spring_#14_1_requestMapping_mathod/src/main/webapp/WEB-INF/views/student/student.jsp&apos; to &apos;studentId.jsp&apos;" description="Rename resource &apos;student.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/WEB-INF/views/student/student.jsp" name="studentId.jsp" stamp="1500377072517" updateReferences="true"/>
+</session>
